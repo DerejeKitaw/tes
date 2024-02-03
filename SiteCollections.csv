@@ -1,5 +1,5 @@
 Owner,StorageQuota,Url,Template,TimeZoneID,Name
-admin@wplrn.onmicrosoft.com,100,https://wplrn.sharepoint.com/sites/TeamSite01,STS#3,10,Contoso Team Site
-admin@wplrn.onmicrosoft.com,100,https://wplrn.sharepoint.com/sites/Blog01,STS#3,10,Contoso Blog
-admin@wplrn.onmicrosoft.com,150,https://wplrn.sharepoint.com/sites/Project01,PROJECTSITE#0,10,Project Alpha
-admin@wplrn.onmicrosoft.com,150,https://wplrn.sharepoint.com/sites/Community01,COMMUNITY#0,10,Community Site
+user@xxxx.onmicrosoft.com,100,https://xxx.sharepoint.com/sites/TeamSite01,STS#3,10,Contoso Team Site
+user@xxxx.onmicrosoft.com,100,https://xxx.sharepoint.com/sites/Blog01,STS#3,10,Contoso Blog
+user@xxxx.onmicrosoft.com,150,https://xxx.sharepoint.com/sites/Project01,PROJECTSITE#0,10,Project Alpha
+user@xxxx.onmicrosoft.com,150,https://xxx.sharepoint.com/sites/Community01,COMMUNITY#0,10,Community Site

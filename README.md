@@ -1,11 +1,15 @@
 # Connect to SharePoint Online
 Connect-SPOService -Url "https://yourtenant-admin.sharepoint.com" 
 
-# Create the new site
+# Create new site
+```
 New-SPOSite -Url $siteUrl -Owner "user@xxxx.onmicrosoft.com" -StorageQuota 100 -NoWait -Title $siteTitle -Template $siteTemplate
+```
+
 
 # Create multiple sites from `SiteCollections.csv`
 > Change SiteCollections.csv location
+> 
 ```sh
 Import-Csv C:\SiteCollections.csv | ForEach-Object {New-SPOSite -Owner $_.Owner -StorageQuota $_.StorageQuota -Url $_.Url -NoWait -Template $_.Template -TimeZoneID $_.TimeZoneID -Title $_.Name}
 ```
